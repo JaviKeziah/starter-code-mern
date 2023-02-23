@@ -5,8 +5,12 @@
 }
 
 :root {
+  --bg-main: #3d4246;
+  --txt: #fafafa;
 }
 
 body {
   font-family: system-ui, -apple-system, sans-serif, Helvetica;
+  background-color: var(--bg-main);
+  color: var(--txt);
 }
